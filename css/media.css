@@ -1,0 +1,623 @@
+@media screen and (min-width:320px) and (max-width:480px) {
+
+
+
+    /* ================commen=============== */
+
+    .heading {
+        width: 100%;
+    }
+
+
+
+    /* ===================header================ */
+
+
+    /* -------------uper-------------- */
+
+    .h-uper {
+        justify-content: center;
+    }
+
+
+    /* ---------------midal */
+    .h-midal {
+        padding: 30px 20px;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .h-midal .h-conact {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .h-midal .h-conact .con1 {
+        border-right: none;
+        border-left: none;
+    }
+
+    /* ------------navigation----------------- */
+
+    .h-navigation {
+        padding: 0;
+    }
+
+    .h-navigation .drop {
+        display: block;
+    }
+
+    .h-navigation .m-icon {
+        display: flex;
+    }
+
+    .h-navigation .navbar {
+        opacity: 0;
+        width: 100%;
+        background-color: #252525d9;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        position: absolute;
+        top: 75px;
+        left: -100%;
+        padding: 20px 20px;
+        transition: all .1s;
+    }
+
+
+    #drop:checked~.navbar {
+        opacity: 1;
+        top: 70px;
+        left: 0;
+
+    }
+
+    .h-navigation .navbar a {
+        font-size: 20px;
+    }
+
+
+
+    /* ==================home==================== */
+
+    .cunstruction-main {
+        width: 100%;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .cunstruction-main .left,
+    .cunstruction-main .right {
+        display: none;
+    }
+
+    .cunstruction-main .cuntant {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cunstruction-main .cuntant p {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .cunstruction-main .cuntant h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .request {
+        width: 80%;
+        height: 30vh;
+        left: 10%;
+        justify-content: center;
+    }
+
+    .request p {
+        text-align: center;
+        font-size: 20px;
+    }
+
+
+    .about-us .about-main {
+        justify-content: center;
+        gap: 20px;
+        width: 93%;
+    }
+
+    .about-us .about,
+    .about-us .values {
+        margin: 85px auto;
+        width: 100%;
+    }
+
+    .about-us .section {
+        width: 100%;
+    }
+
+
+    /* -------------about-more------------- */
+
+    .total,
+    .staff,
+    .hours,
+    .countries {
+        width: 100%;
+    }
+
+
+
+    /* ===================WHAT WE DO=================== */
+
+    .wwd-main {
+        grid-template-columns: 95%;
+    }
+
+    .w-section1 {
+        grid-column: 1 /span 1;
+        grid-row: 4 /span 3;
+    }
+
+
+
+
+    /* =======================RECENT PROJECTS===================== */
+
+
+    .r-navigation {
+        width: 90%;
+        height: 120px;
+    }
+
+    .r-nav {
+        gap: 5px;
+        margin-left: 0;
+    }
+
+
+    .recentP .box{
+        font-size: 12px;
+        padding: 10px 10px;
+    }
+
+    .nav1{
+        left: 5%;
+    }
+
+    .nav2{
+        left: 33%;
+    }
+
+    .nav3{
+        left: 65%;
+    }
+
+    .nav4{
+        top: 63px;
+        left: 5%;
+    }
+
+    .nav5{
+        top: 63px;
+        left: 40%;
+    }
+
+    .nav6{
+        top: 102px;
+        left: 5%;
+    }
+
+    .nav7{
+        top: 102px;
+        left: 37%;
+    }
+
+
+
+
+    .r-box {
+        width: 95%;
+    }
+
+    .r-image {
+        width: 100%;
+    }
+
+    
+
+
+    /* -------------testimonials---------- */
+
+    .test-happy {
+        margin-top: 10px;
+    }
+
+    .testimonials {
+        height: 340px;
+        width: 90%;
+    }
+
+    .testimonials h2 {
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+
+    .testimonials .icon i {
+        left: -8px;
+    }
+
+    .testimonials .contant p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .th-image .img {
+        width: 25%;
+        height: 80%;
+    }
+
+    .th-image .name {
+        width: 60%;
+        height: 80%;
+    }
+
+    .scrol-main {
+        left: 40%;
+    }
+
+    .scrol1 {
+        left: 40%;
+    }
+
+    .scrol2 {
+        left: 50.5%;
+    }
+
+    .scrol3 {
+        left: 60.88%;
+    }
+
+
+    /* --------happy----------- */
+
+    .happy {
+        width: 90%;
+    }
+
+    .client {
+        width: 45%;
+    }
+
+    /* =============can we help============= */
+
+    .c-w-h {
+        margin-top: 20%;
+        margin-bottom: 140px;
+    }
+
+    .cwh {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .cwh .box {
+        width: 80%;
+        align-items: center;
+    }
+
+    .n-s {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ns {
+        width: 100%;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .n-s .text {
+        width: 80%;
+    }
+
+
+
+    /* =======================RECENT PROJECTS2======================== */
+
+
+    .r2-box {
+        width: 90%;
+    }
+
+
+    /* ======================footer==================== */
+
+    .uper-footer {
+        height: fit-content;
+        padding: 20px 0;
+    }
+
+    .uper-footer .uf-box {
+        width: 95%;
+    }
+
+    .down-footer {
+        padding: 0;
+        justify-content: center;
+    }
+
+    .down-footer p {
+        text-align: center;
+    }
+
+
+
+
+    /* ============================page 2 about us=========================== */
+
+    /* =======================p2 about================= */
+
+    .p2-about-main {
+        background-position: center;
+    }
+
+
+    /* =================who we are=================== */
+
+
+    .wwa-main {
+        gap: 0;
+    }
+
+    .wwa-contant,
+    .wwa-image {
+        width: 90%;
+        height: 400px
+    }
+
+    .wwa-img1,
+    .wwa-img2,
+    .wwa-img3 {
+        height: 75%;
+    }
+
+    .wwa-image .box1,
+    .wwa-image .box2,
+    .wwa-image .box3 {
+        opacity: 1;
+        height: 16%;
+        width: 28%;
+        bottom: 5px;
+        left: 4%;
+    }
+
+    .wwa-image .box2 {
+        left: 35%;
+    }
+
+    .wwa-image .box3 {
+        left: 66.6%;
+    }
+
+
+
+    /* ======================PROFESSIONAL TEAM===================== */
+
+    .p2-team-main {
+        width: 100%;
+    }
+
+    .p2-team-mamber{
+        width: 1900px;
+        overflow: auto;
+    }
+
+    .p2-team-main .show{
+        display: none;
+    }
+
+    .p2-team-main .show-mamber{
+        height: 28px;
+        width: 28px;
+        background: rgba(0, 0, 0, 0.08);
+        border-radius: 4px;
+        position: absolute;
+        bottom: 0;
+        left: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .p2-team-main .sm1{
+        left: 18%;
+    }
+
+    .p2-team-main .sm2{
+        left: 28%;
+    }
+
+    .p2-team-main .sm3{
+        left: 38%;
+    }
+
+    .p2-team-main .sm4{
+        left: 48%;
+    }
+
+    .p2-team-main .sm5{
+        left: 58%;
+    }
+
+    .p2-team-main .sm6{
+        left: 68%;
+    }
+
+    #show1:checked ~ .p2-team-mamber{
+        left: 0;
+    }
+    #show1:checked ~ label .sm1{
+        background: rgba(0, 0, 0, 0.2);
+    
+    }
+
+    #show2:checked ~ .p2-team-mamber{
+        left: -320px;
+    }
+    #show2:checked ~ label .sm2{
+        background: rgba(0, 0, 0, 0.2);
+    
+    }
+
+    #show3:checked ~ .p2-team-mamber{
+        left: -640px;
+    }
+    #show3:checked ~ label .sm3{
+        background: rgba(0, 0, 0, 0.2);
+    
+    }
+
+    #show4:checked ~ .p2-team-mamber{
+        left: -955px;
+    }
+    #show4:checked ~ label .sm4{
+        background: rgba(0, 0, 0, 0.2);
+    
+    }
+
+    #show5:checked ~ .p2-team-mamber{
+        left: -1265px;
+    }
+    #show5:checked ~ label .sm5{
+        background: rgba(0, 0, 0, 0.2);
+    
+    }
+
+    #show6:checked ~ .p2-team-mamber{
+        left: -1540px;
+    }
+    #show6:checked ~ label .sm6{
+        background: rgba(0, 0, 0, 0.2);
+    
+    }
+
+
+
+
+
+/* ===================================page3 our people======================= */
+
+
+.p3-team-main{
+    width: 100%;
+    grid-template-columns: 90%;  
+}
+
+
+.p3-mamber1{
+    grid-column-start: 1;
+
+}
+
+.p3-mamber3{
+    grid-row-start: 3;
+}
+
+.p3-mamber4{
+    grid-column-start: 1;
+}
+
+
+
+
+
+/* ================================page5 services========================== */
+
+
+.p5-services-main   {
+    width: 100%;
+}
+
+.p5-service{
+    width: 90%;
+}
+
+
+
+
+
+/* =================================page6 news================================== */
+
+
+.news-main{
+    width: 100%;
+    flex-direction: column;   
+    gap: 20px; 
+}
+
+.biger{
+    width: 95%;
+}
+
+.b-news{
+    height: fit-content;
+}
+
+.news-contant ul{
+    gap: 10px;
+}
+
+.news-contant li{
+    padding-right: 15px;
+}
+
+
+.smaller{
+    width: 100%;
+}
+
+
+
+
+
+/* =================================page7 contact============================ */
+
+.p7-contact-add{
+    width: 100%;
+}
+
+.p7-contact-add .p7-location{
+    width: 90%;
+}
+
+.p7-map{
+    width: 90%;
+}
+
+
+.p7-form{
+    padding-left: 20px;
+    width: 100%;
+}
+
+.p7-form .p7-input{
+    width: 90%;
+}
+
+.p7-form .textarea{
+    height: 250px;
+}
+
+.p7-form textarea{
+    width: 90%;
+}
+
+.p7-form .button{
+    justify-content: center;
+}
+
+}
